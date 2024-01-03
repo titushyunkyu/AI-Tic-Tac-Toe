@@ -141,8 +141,9 @@ def best_next():
             score = -1
         elif winner == "O":
             score = 1
+        # weigh the score for a tie so that when the computer is given an ultimatum between winning with a risk to lose and drawing, the computre will choose to draw.
         elif winner == "Tie":
-            score = 0
+            score = 0.2
         if first_move in evaluations:
             evaluations[first_move] += score
         else:
@@ -175,10 +176,10 @@ def difficulty():
         num_of_simulations = 50
     elif level == "c":
         lvl = "Hard"
-        num_of_simulations = 100
+        num_of_simulations = 1000
     elif level == "d":
         lvl = "Extremely Hard"
-        num_of_simulations = 1000
+        num_of_simulations = 100000
     print(f"\nTic-Tac-Toe vs. computer mode - {lvl}")
 
 # main function for the game play
