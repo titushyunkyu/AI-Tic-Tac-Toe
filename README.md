@@ -10,6 +10,6 @@ To run the code and navigate through the application:
    * The ai_computer.py file contains all the code for the AI program, and the 2-player.py file contains all the code for the regular two-player Tic-Tac-Toe. 
    * When prompted to give an answer to a choice, make sure to answer in small letters and without any spaces (simply 'a' or 'b')
    * When choosing a move, make sure to follow the provided format. The format is (row col) with one space between the row and col and no other spaces or additional text. Simply type (number) space (number), then hit enter.
-   * Be aware that when "extremely hard" or "hard" are chosen for the difficulty, there may be some loading time for the computer's move since the number of simulations is so big (1000 and 100, respectively). 
+   * Be aware that when "extremely hard" or "hard" are chosen for the difficulty, there may be some loading time for the computer's move since the number of simulations is so big (100000 and 1000, respectively). 
 
 <img src="https://titushyunkyu.com/mctc%20tic-tac-toe.png" alt = "Example Image">
